@@ -1,0 +1,24 @@
+Subject: Inquiry about {{title}} Position
+
+Dear Hiring Manager,
+
+I hope this email finds you well. I am writing to express my strong interest in the {{title}} position at {{organization}}.
+
+As a student passionate about applied mathematics and computational sciences, I was excited to learn about this opportunity through the SIAM career center. The position aligns perfectly with my academic background and research interests.
+
+I am particularly drawn to this role because of its focus on applying mathematical methods to solve real-world problems. My coursework and research experience have equipped me with strong analytical skills and proficiency in mathematical modeling, numerical methods, and computational techniques.
+
+I would greatly appreciate the opportunity to discuss how my background and skills could contribute to your team. I have attached my resume for your review and would be happy to provide any additional information you may need.
+
+Thank you for considering my application. I look forward to hearing from you.
+
+Best regards,
+[Your Name]
+[Your Contact Information]
+
+---
+Position Details:
+Title: {{title}}
+Organization: {{organization}}
+Location: {{location}}
+URL: {{url}}
