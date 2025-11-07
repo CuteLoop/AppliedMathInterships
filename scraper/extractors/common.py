@@ -1,7 +1,7 @@
 """
 Common extraction utilities for parsing HTML content.
 """
-from typing import Optional
+from typing import Optional, List
 from bs4 import BeautifulSoup
 
 
@@ -21,7 +21,7 @@ def extract_text(html: str, selector: str) -> Optional[str]:
     return element.get_text(strip=True) if element else None
 
 
-def extract_all_text(html: str, selector: str) -> list[str]:
+def extract_all_text(html: str, selector: str) -> List[str]:
     """
     Extract text from all matching elements in HTML.
     
@@ -53,7 +53,7 @@ def extract_link(html: str, selector: str) -> Optional[str]:
     return element.get('href') if element else None
 
 
-def extract_all_links(html: str, selector: str) -> list[str]:
+def extract_all_links(html: str, selector: str) -> List[str]:
     """
     Extract href attributes from all matching anchor tags.
     

@@ -5,7 +5,6 @@ Scrapes career opportunities from SIAM careers page.
 import requests
 from typing import List, Dict, Optional
 from bs4 import BeautifulSoup
-from ..extractors.common import extract_text, extract_all_links
 
 
 class SIAMProvider:
